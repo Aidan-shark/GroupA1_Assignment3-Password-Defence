@@ -1,0 +1,37 @@
+# === Python build and cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Virtual environments (in case used locally) ===
+venv/
+env/
+.venv/
+
+# === Jupyter / Colab notebooks ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Logs, outputs, screenshots ===
+*.log
+demo/screenshots/
+output/
+*.csv
+*.txt
+
+# === Editor / IDE files ===
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Temporary runtime files ===
+*.tmp
+*.bak
+*.zip
